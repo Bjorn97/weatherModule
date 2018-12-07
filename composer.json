@@ -1,0 +1,23 @@
+{
+    "name" : "bjorn/weathermod",
+    "description": "displays weather in area of ip",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
+    "require": {
+        "php": "^5.6.37 || ^7.0"
+        
+    },
+    "require-dev": {
+        "anax/anax-lite": "^1.0.24",
+        "phpunit/phpunit": "^7.2",
+        "anax/cache": "^2.0.0@beta",
+        "anax/view": "^2.0.0@alpha",
+        "anax/content": "^2.0.0@beta",
+        "anax/textfilter": "^1.2.4",
+        "symfony/yaml": "^3.4.19"
+    }
+}
